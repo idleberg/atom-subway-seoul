@@ -1,0 +1,23 @@
+{
+  "name": "subway-seoul",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Color scheme based on the Seoul Metropolitan Subway map",
+  "repository": "https://github.com/idleberg/atom-subway-seoul",
+  "license": "Public Domain Mark 1.0",
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsonlint": "^1.0.2",
+    "gulp-recess": "^1.1.2"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
