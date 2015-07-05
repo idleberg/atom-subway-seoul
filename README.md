@@ -19,7 +19,7 @@ Also [available](https://github.com/idleberg/Subway.tmTheme) for Sublime Text an
 
 ### GitHub
 
-1. Change directory to `~/atom/packages/`
+1. Change directory to `~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-subway-seoul.git`
 3. Enable theme from the *Atom/Preferences* menu
 
