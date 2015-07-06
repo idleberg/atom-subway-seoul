@@ -14,8 +14,7 @@ Also [available](https://github.com/idleberg/Subway.tmTheme) for Sublime Text an
 
 ### apm
 
-* Make sure you have [Atom](https://atom.io/) (with apm) installed
-* Install theme `apm install subway-seoul`
+* Install theme `apm install subway-seoul` or use the GUI
 
 ### GitHub
 
