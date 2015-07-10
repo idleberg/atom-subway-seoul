@@ -14,7 +14,7 @@ Also [available](https://github.com/idleberg/Subway.tmTheme) for Sublime Text an
 
 ### apm
 
-* Install theme `apm install subway-seoul` or use the GUI
+* Install theme `apm install subway-seoul` (or use the GUI)
 
 ### GitHub
 
@@ -24,4 +24,4 @@ Also [available](https://github.com/idleberg/Subway.tmTheme) for Sublime Text an
 
 ## License
 
-This work is licensed under the [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/).
+This work is licensed under the [Public Domain Mark 1.0](LICENSE.md).
