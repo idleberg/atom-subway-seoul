@@ -1,8 +1,9 @@
 # Subway Seoul for Atom
 
-[![Version](https://img.shields.io/apm/v/subway-seoul.svg?style=flat-square)](https://atom.io/themes/subway-seoul)
-[![Travis branch](https://img.shields.io/travis/idleberg/atom-subway-seoul/master.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-subway-seoul)
-[![License](https://img.shields.io/apm/l/subway-seoul.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/legalcode)
+[![apmn](https://img.shields.io/apm/l/subway-seoul.svg?style=flat-square)](https://atom.io/themes/subway-seoul)
+[![apmn](https://img.shields.io/apm/v/subway-seoul.svg?style=flat-square)](https://atom.io/themes/subway-seoul)
+[![apmn](https://img.shields.io/apm/dm/subway-seoul.svg?style=flat-square)](https://atom.io/themes/subway-seoul)
+[![apm branch](https://img.shields.io/travis/idleberg/atom-subway-seoul/master.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-subway-seoul)
 
 Color scheme based on the Seoul Metropolitan Subway map
 
