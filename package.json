@@ -1,7 +1,7 @@
 {
   "name": "subway-seoul",
   "theme": "syntax",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Color scheme based on the Seoul Metropolitan Subway map",
   "repository": "https://github.com/idleberg/atom-subway-seoul",
   "license": "Public Domain Mark 1.0",
