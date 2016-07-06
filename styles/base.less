@@ -1,17 +1,18 @@
-@import "syntax-variables.less";
+@import 'syntax-variables';
 
-atom-text-editor, // <- remove when Shadow DOM can't be disabled
+atom-text-editor,
 :host {
-  color: @syntax-text-color;
   background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
   .gutter {
-    color: @syntax-gutter-text-color;
     background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
   }
 
   .gutter .line-number.cursor-line {
-    color: @syntax-gutter-text-color-selected;
     background-color: @syntax-gutter-background-color-selected;
+    color: @syntax-gutter-text-color-selected;
   }
 
   .gutter .line-number.cursor-line-no-selection {
@@ -47,7 +48,8 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
     background-color: @syntax-selection-color;
   }
 
-  .line-number.cursor-line-no-selection, .line.cursor-line {
+  .line-number.cursor-line-no-selection,
+  .line.cursor-line {
     background-color: rgba(176, 176, 176, 0.33);
   }
 
@@ -57,11 +59,17 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #303030;
 }
 
-.comment, .punctuation.definition.comment {
+.comment,
+.punctuation.definition.comment {
   color: #a0a0a0;
 }
 
-.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+.punctuation.definition.string,
+.punctuation.definition.variable,
+.punctuation.definition.string,
+.punctuation.definition.parameters,
+.punctuation.definition.string,
+.punctuation.definition.array {
   color: #303030;
 }
 
@@ -81,11 +89,15 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #e23f88;
 }
 
-.entity.name.function, .meta.require, .support.function.any-method {
+.entity.name.function,
+.meta.require,
+.support.function.any-method {
   color: #2e76b6;
 }
 
-.support.class, .entity.name.class, .entity.name.type.class {
+.support.class,
+.entity.name.class,
+.entity.name.type.class {
   color: #ecaf40;
 }
 
@@ -105,7 +117,9 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #1cabdf;
 }
 
-.string, .constant.other.symbol, .entity.other.inherited-class {
+.string,
+.constant.other.symbol,
+.entity.other.inherited-class {
   color: #16a04c;
 }
 
@@ -133,7 +147,8 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #ecaf40;
 }
 
-.entity.other.attribute-name.id, .punctuation.definition.entity {
+.entity.other.attribute-name.id,
+.punctuation.definition.entity {
   color: #2e76b6;
 }
 
@@ -145,7 +160,9 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #ecaf40;
 }
 
-.markup.heading, .punctuation.definition.heading, .entity.name.section {
+.markup.heading,
+.punctuation.definition.heading,
+.entity.name.section {
   color: #2e76b6;
 }
 
@@ -153,14 +170,16 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #ecaf40;
 }
 
-.markup.bold, .punctuation.definition.bold {
-  font-weight: bold;
+.markup.bold,
+.punctuation.definition.bold {
   color: #ecaf40;
+  font-weight: bold;
 }
 
-.markup.italic, .punctuation.definition.italic {
-  font-style: italic;
+.markup.italic,
+.punctuation.definition.italic {
   color: #962c7e;
+  font-style: italic;
 }
 
 .markup.raw.inline {
@@ -184,8 +203,8 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
 }
 
 .meta.separator {
-  color: #303030;
   background-color: #e0e0e0;
+  color: #303030;
 }
 
 .markup.inserted {
@@ -212,11 +231,12 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: #1cabdf;
 }
 
-.punctuation.section.embedded, .variable.interpolation {
+.punctuation.section.embedded,
+.variable.interpolation {
   color: #b58e7b;
 }
 
 .invalid.illegal {
-  color: #ffffff;
   background-color: #e23f88;
+  color: #ffffff;
 }
