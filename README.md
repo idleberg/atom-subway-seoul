@@ -25,4 +25,4 @@ Also [available](https://github.com/idleberg/Subway.tmTheme) for Sublime Text an
 
 ## License
 
-This work is licensed under the [Public Domain Mark 1.0](LICENSE.md).
+This work is licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/legalcode).
